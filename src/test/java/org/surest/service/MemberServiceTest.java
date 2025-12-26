@@ -41,16 +41,16 @@ class MemberServiceTest {
 
         member = new Member();
         member.setId(id);
-        member.setFirstName("Ajit");
-        member.setLastName("Behera");
+        member.setFirstName("Rittik");
+        member.setLastName("Chowdhury");
         member.setDateOfBirth(LocalDate.of(1999, 1, 1));
-        member.setEmail("ajit@example.com");
+        member.setEmail("Rittik@example.com");
 
         dto = new MemberDto();
-        dto.setFirstName("Ajit");
-        dto.setLastName("Behera");
+        dto.setFirstName("Rittik");
+        dto.setLastName("Chowdhury");
         dto.setDateOfBirth(LocalDate.of(1999, 1, 1));
-        dto.setEmail("ajit@example.com");
+        dto.setEmail("Rittik@example.com");
     }
 
     @Test

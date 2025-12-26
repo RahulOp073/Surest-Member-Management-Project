@@ -67,10 +67,10 @@ class MemberControllerIT {
         String token = obtainAccessToken();
 
         MemberDto dto = MemberDto.builder()
-                .firstName("Biswajit")
-                .lastName("Behera")
+                .firstName("Rahul")
+                .lastName("Chowdhury")
                 .dateOfBirth(LocalDate.of(1999, 1, 1))
-                .email("biswajit.it+" + System.currentTimeMillis() + "@example.com")
+                .email("Rahul.it+" + System.currentTimeMillis() + "@example.com")
                 .build();
 
         String json = objectMapper.writeValueAsString(dto);
@@ -97,8 +97,8 @@ class MemberControllerIT {
         String email = "duplicate+" + System.currentTimeMillis() + "@example.com";
 
         MemberDto dto = MemberDto.builder()
-                .firstName("Ajit")
-                .lastName("Behera")
+                .firstName("Rittik")
+                .lastName("Chowdhury")
                 .dateOfBirth(LocalDate.of(1999, 1, 1))
                 .email(email)
                 .build();
