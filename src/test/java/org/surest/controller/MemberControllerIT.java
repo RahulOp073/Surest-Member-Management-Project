@@ -69,7 +69,7 @@ class MemberControllerIT {
         MemberDto dto = MemberDto.builder()
                 .firstName("Rahul")
                 .lastName("Chowdhury")
-                .dateOfBirth(LocalDate.of(1999, 1, 1))
+                .dateOfBirth(LocalDate.of(2001, 2, 16))
                 .email("Rahul.it+" + System.currentTimeMillis() + "@example.com")
                 .build();
 
